@@ -1,2 +1,2 @@
 # PowerBI
-Documentaçõa dos visuais
+Documentação dos visuais do Power BI
