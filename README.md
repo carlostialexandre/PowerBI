@@ -51,7 +51,26 @@ modelo tabular
 
 seguranças
 
+<<<<<<< Updated upstream
 FATO
+=======
+Resumo das Cardinalidades:
+
+Quando falamos sobre Cardinalidade estamos nos referindo a exclusividade de valores em uma coluna.
+
+Os tipos de cardinalidade: 
+
+• Um para Muitos (1:*) / Muitos para Um: (*:1):
+Este é o tipo mais recomendado de relacionamento e o mais encontrado nos projetos;
+
+• Um para Um: (1:1):
+Não é comum - significa que essas tabelas poderiam ser mescladas e se tornar uma única tabela;
+
+• Muitos para Muitos (*:*)
+Significa que há dados que se repetem nas duas tabelas. Não há chave primária(única):
+💡Sugestão: Criar uma tabela auxiliar com dados únicos, para que possa ser utilizada como uma "ponte" entre as duas tabelas fato.
+
+>>>>>>> Stashed changes
 
 Característica: tabelas grandes, com muitas linhas (cada linha um registro)
 Dados quantitativos e com registro de datas dos eventos/fatos do negócio. Se repetem inúmeras vezes.
