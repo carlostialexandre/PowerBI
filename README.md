@@ -51,4 +51,17 @@ modelo tabular
 
 seguranças
 
+FATO
 
+Característica: tabelas grandes, com muitas linhas (cada linha um registro)
+Dados quantitativos e com registro de datas dos eventos/fatos do negócio. Se repetem inúmeras vezes.
+Nomenclatura mais encontrada: letra f minúscula na frente do nome. Assim:
+fNotasFiscais, fPedidos, fEmbarques, fChamados.
+
+
+DIMENSÃO
+
+Característica: menor quantidade de linhas, mas pode ter mais colunas (de acordo com a quantidade de atributos).
+Dados mais qualitativos, que descrevem detalhes de quem, onde, quando, porquê os acontecimentos da tabela fato ocorreram. Possuem valores (chaves) únicas, sem repetição.
+Nomenclatura mais encontrada: letra d minúscula. Assim:
+dFornecedores, dProdutos, dFuncionários, dClientes.
