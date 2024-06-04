@@ -84,3 +84,25 @@ Característica: menor quantidade de linhas, mas pode ter mais colunas (de acord
 Dados mais qualitativos, que descrevem detalhes de quem, onde, quando, porquê os acontecimentos da tabela fato ocorreram. Possuem valores (chaves) únicas, sem repetição.
 Nomenclatura mais encontrada: letra d minúscula. Assim:
 dFornecedores, dProdutos, dFuncionários, dClientes.
+
+Características da modelagem de dados com boas práticas aplicadas: 
+
+➡️ Inclui somente dados que são necessários para a análise, excluindo qualquer redundância ou informações desnecessárias ao projeto;
+
+➡️Possui tabelas que servem para um propósito específico e bem definido, devidamente separadas por fatos e dimensões (modelo normalizado);
+
+➡️Tabelas e colunas possuem nomes facilmente conhecidos pelo negócio (cuidado com siglas de sistemas e abreviações). Para facilitar a identificação de tabelas, você pode optar por deixar um prefixo "f" para tabela fato e "d" para dimensão (opcional). Por exemplo: fVendas; dCalendário
+
+➡️Função Mesclar do Power Query utilizada com cautela. Usar apenas para unificar dimensões com dimensões (jamais fato + dimensão);
+
+➡️Revisão criteriosa dos relacionamentos criados automaticamente pelo Power BI. É possível desabilitar essa opção seguindo o caminho: Arquivo > Opções e Configurações > Opções > Arquivo Atual > Carregamento de dados > Relacionamentos.
+
+➡️Utiliza um esquema do tipo estrela (star schema) com relacionamentos de Um para Muitos (1:*);
+
+➡️Contém relacionamentos com filtros de direção única;
+
+➡️Não possui relacionamento direto de fato com fato. Utiliza uma tabela dimensão como ponte para vincular as duas tabelas fato. Tem uma tabela dCalendário no modelo (marcada com o tipo de dado como "Data");
+
+➡️Componentes de Data e Hora separados em colunas diferentes;
+
+➡️Tem uma tabela dCalendário no modelo (marcada como "Data").
