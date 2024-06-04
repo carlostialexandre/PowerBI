@@ -106,3 +106,14 @@ Características da modelagem de dados com boas práticas aplicadas:
 ➡️Componentes de Data e Hora separados em colunas diferentes;
 
 ➡️Tem uma tabela dCalendário no modelo (marcada como "Data").
+
+
+Resumo de pontos destacados da aula anterior:
+
+Levantamento das necessidades analíticas junto aos stakeholders
+Mapeamento e coleta das fontes de dados
+Análise da estrutura dos dados
+Tratamento removendo dados indesejados e ajustando estrutura para o modelo tabular
+Criação das métricas para responder as necessidades analíticas
+Visualização dos dados em gráficos
+Compartilhamento aos interessados e configuração de atualizações e seguranças
