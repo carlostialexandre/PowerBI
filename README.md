@@ -117,3 +117,11 @@ Tratamento removendo dados indesejados e ajustando estrutura para o modelo tabul
 Criação das métricas para responder as necessidades analíticas
 Visualização dos dados em gráficos
 Compartilhamento aos interessados e configuração de atualizações e seguranças
+
+Resumo de pontos destacados da aula anterior:
+
+Tipos de Cálculos no DAX
+
+Nova medida: cria medidas para serem inseridas em gráficos. São calculadas somente no visual.
+Nova coluna: cria colunas na tabela utilizando DAX. São calculadas e mantidas na tabela/modelo. Não aparecem no Power Query.
+Nova tabela: cria tabelas usando DAX. São calculadas e mantidas no modelo. Não aparecem no Power Query.
