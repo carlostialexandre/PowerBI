@@ -125,3 +125,12 @@ Tipos de Cálculos no DAX
 Nova medida: cria medidas para serem inseridas em gráficos. São calculadas somente no visual.
 Nova coluna: cria colunas na tabela utilizando DAX. São calculadas e mantidas na tabela/modelo. Não aparecem no Power Query.
 Nova tabela: cria tabelas usando DAX. São calculadas e mantidas no modelo. Não aparecem no Power Query.
+
+Resumo de operadores lógicos explicado na aula anterior para serem usados na Calculate, IF e outras funções.
+
+Argumentos Lógicos:
+
+OR - isso 'ou' aquilo
+II - isso 'ou' aquilo. Também conhecido como "Pipe"
+AND - isso 'e' aquilo
+&& - isso 'e' aquilo
