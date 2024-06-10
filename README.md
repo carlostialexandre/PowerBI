@@ -51,14 +51,11 @@ modelo tabular
 
 seguranças
 
-<<<<<<< Updated upstream
-FATO
-=======
-Resumo das Cardinalidades:
+## Resumo das Cardinalidades:
 
 Quando falamos sobre Cardinalidade estamos nos referindo a exclusividade de valores em uma coluna.
 
-Os tipos de cardinalidade: 
+## Os tipos de cardinalidade: 
 
 • Um para Muitos (1:*) / Muitos para Um: (*:1):
 Este é o tipo mais recomendado de relacionamento e o mais encontrado nos projetos;
@@ -70,7 +67,6 @@ Não é comum - significa que essas tabelas poderiam ser mescladas e se tornar u
 Significa que há dados que se repetem nas duas tabelas. Não há chave primária(única):
 💡Sugestão: Criar uma tabela auxiliar com dados únicos, para que possa ser utilizada como uma "ponte" entre as duas tabelas fato.
 
->>>>>>> Stashed changes
 
 Característica: tabelas grandes, com muitas linhas (cada linha um registro)
 Dados quantitativos e com registro de datas dos eventos/fatos do negócio. Se repetem inúmeras vezes.
@@ -78,14 +74,14 @@ Nomenclatura mais encontrada: letra f minúscula na frente do nome. Assim:
 fNotasFiscais, fPedidos, fEmbarques, fChamados.
 
 
-DIMENSÃO
+## DIMENSÃO
 
 Característica: menor quantidade de linhas, mas pode ter mais colunas (de acordo com a quantidade de atributos).
 Dados mais qualitativos, que descrevem detalhes de quem, onde, quando, porquê os acontecimentos da tabela fato ocorreram. Possuem valores (chaves) únicas, sem repetição.
 Nomenclatura mais encontrada: letra d minúscula. Assim:
 dFornecedores, dProdutos, dFuncionários, dClientes.
 
-Características da modelagem de dados com boas práticas aplicadas: 
+## Características da modelagem de dados com boas práticas aplicadas: 
 
 ➡️ Inclui somente dados que são necessários para a análise, excluindo qualquer redundância ou informações desnecessárias ao projeto;
 
@@ -108,7 +104,7 @@ Características da modelagem de dados com boas práticas aplicadas:
 ➡️Tem uma tabela dCalendário no modelo (marcada como "Data").
 
 
-Resumo de pontos destacados da aula anterior:
+## Resumo de pontos destacados da aula anterior:
 
 Levantamento das necessidades analíticas junto aos stakeholders
 Mapeamento e coleta das fontes de dados
@@ -120,7 +116,7 @@ Compartilhamento aos interessados e configuração de atualizações e seguranç
 
 Resumo de pontos destacados da aula anterior:
 
-Tipos de Cálculos no DAX
+## Tipos de Cálculos no DAX
 
 Nova medida: cria medidas para serem inseridas em gráficos. São calculadas somente no visual.
 Nova coluna: cria colunas na tabela utilizando DAX. São calculadas e mantidas na tabela/modelo. Não aparecem no Power Query.
@@ -128,9 +124,19 @@ Nova tabela: cria tabelas usando DAX. São calculadas e mantidas no modelo. Não
 
 Resumo de operadores lógicos explicado na aula anterior para serem usados na Calculate, IF e outras funções.
 
-Argumentos Lógicos:
+## Argumentos Lógicos:
 
 OR - isso 'ou' aquilo
 II - isso 'ou' aquilo. Também conhecido como "Pipe"
 AND - isso 'e' aquilo
 && - isso 'e' aquilo
+
+## Principais atalhos no DAX:
+
+// ou -- : comentário de linha
+/* e */ : comentário de várias linhas
+Ctrl + D : seleciona ocorrências da palavra selecionada
+Ctrl + Shift + L : seleciona todas as ocorrências da palavra selecionada
+Shift + Enter : Quebra de linha
+Alt + Shift + Setas : Duplica linha
+Alt + Setas : Reposiciona linha
