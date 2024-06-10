@@ -140,3 +140,9 @@ Ctrl + Shift + L : seleciona todas as ocorrências da palavra selecionada
 Shift + Enter : Quebra de linha
 Alt + Shift + Setas : Duplica linha
 Alt + Setas : Reposiciona linha
+
+## Organização dentro de Medidas: Indentação
+
+Em todos os argumentos de função (após a vírgula), exceto aquelas que possuem apenas 1 argumento simples, é realizada uma quebra de linha.
+Em toda abertura de função, após o parênteses, é realizada uma quebra de linha.
+Em todo encerramento de função, após o parênteses e/ou vírgula, é realizada uma quebra de linha.
