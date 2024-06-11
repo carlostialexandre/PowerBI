@@ -146,3 +146,11 @@ Alt + Setas : Reposiciona linha
 Em todos os argumentos de função (após a vírgula), exceto aquelas que possuem apenas 1 argumento simples, é realizada uma quebra de linha.
 Em toda abertura de função, após o parênteses, é realizada uma quebra de linha.
 Em todo encerramento de função, após o parênteses e/ou vírgula, é realizada uma quebra de linha.
+
+## Resumo Funções de Inteligência de Tempo
+
+SAMEPERIODLASTYEAR: Retorna os valores do mesmo período do ano anterior.
+DATEADD: Retorna os valores do mesmo período do ano, trimestre, mês ou dia anterior.
+DATESINPERIOD: Cria uma lista de datas para um período específico a partir de uma data inicial.
+DATESBETWEEN: Retorna uma lista de datas entre duas datas especificadas.
+TOTALYTD: Calcula o total acumulado do início do ano até uma data especificada.
