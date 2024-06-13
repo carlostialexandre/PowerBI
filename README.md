@@ -154,3 +154,11 @@ DATEADD: Retorna os valores do mesmo período do ano, trimestre, mês ou dia ant
 DATESINPERIOD: Cria uma lista de datas para um período específico a partir de uma data inicial.
 DATESBETWEEN: Retorna uma lista de datas entre duas datas especificadas.
 TOTALYTD: Calcula o total acumulado do início do ano até uma data especificada.
+
+## Resumo da USERRELANTIONSHIP:
+
+Múltiplas Relações: Utilize quando houver múltiplas relações entre duas tabelas e quiser alternar entre elas.
+Temporariedade: A relação ativada é temporária e se aplica apenas à medida ou expressão em questão.
+Relações Inativas: Só pode ativar relações que estão inativas. Tentar ativar uma já ativa resultará em erro.
+Combinada com CALCULATE: Deve ser usada com CALCULATE para modificar o contexto do cálculo.
+Precisa existir o relacionamento: O relacionamento entre as colunas usadas na função precisa existir, ou seja, precisa ter sido relacionada previamente.
