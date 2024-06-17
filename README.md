@@ -162,3 +162,21 @@ Temporariedade: A relação ativada é temporária e se aplica apenas à medida 
 Relações Inativas: Só pode ativar relações que estão inativas. Tentar ativar uma já ativa resultará em erro.
 Combinada com CALCULATE: Deve ser usada com CALCULATE para modificar o contexto do cálculo.
 Precisa existir o relacionamento: O relacionamento entre as colunas usadas na função precisa existir, ou seja, precisa ter sido relacionada previamente.
+
+## Compreenda o que é DataViz
+Sejam muito bem-vindos e bem-vindas a mais um módulo! 🥳🎉
+Essa aula é super importante para você começar com o pé direito entender exatamente qual é o conceito de DataViz. 
+
+⚠️ Se você está aqui e pulou as aulas dos módulos anteriores: volte uma casa. Todo o conhecimento adquirido aqui só será válido se você tiver assistido o curso de forma completa e seguindo a linha linear e lógica que desenvolvemos especialmente para os #datadrivens, combinado?
+
+Aproveite as aulas e marca a gente (@leticiasmirelli e @karinedolago) lá nos stories do Instagram enquanto estiver assistindo! Nós adoramos ver a dedicação de vocês e iremos repostar sempre que possível. Também é muito legal ver os comentários aqui abaixo das aulas na plataforma! Estamos sempre de olho nos #datadrivens com alto engajamento! 👀
+
+## Pontos-chave - DataViz
+
+>> Escolha dos gráficos mais adequados de acordo com a história que você quer contar.
+>> Consideração dos princípios básicos do design (contraste, repetição, alinhamento e proximidade).
+
+>> A forma segue a função (primeiro deve ser funcional e depois esteticamente bonito).
+>> Elementos (cores, ícones) devem ser usados estrategicamente para dirigir a atenção do público.
+>> Um bom design interfere diretamente na atenção e nível de qualidade percebido no seu projeto.
+>> Menos é mais (retire tudo aquilo que ocupa espaço e não agrega valor).
