@@ -2,10 +2,10 @@
 
 ### Visualize s aquivos em pdf, print e visuais
 Documentação dos visuais do Power BI
-Acesse [pelo terabox] (https://www.terabox.com/main?category=all&path=%2FPowerBI)
+Acesse [pelo terabox](https://www.terabox.com/main?category=all&path=%2FPowerBI)
 
 
-link para[5 pilares para um dashboard de sucesso](https://www.mindmeister.com/app/map/2830078046?fullscreen=1&v=public)
+link para [5 pilares para um dashboard de sucesso](https://www.mindmeister.com/app/map/2830078046?fullscreen=1&v=public)
 ➡️Resumo - Análises e KPIs do Projeto
 
 Análises necessárias
