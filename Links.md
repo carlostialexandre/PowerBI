@@ -14,3 +14,7 @@
 
 [UI Gradientes] (https://uigradients.com/#Sherbert)
 [Mini Curso de Fima] (https://www.youtube.com/watch?v=dphoDzhVgtQ&t=2s)
+
+## Atalhos na Documentação
+[Narrativa inteligente](https://learn.microsoft.com/pt-br/power-bi/visuals/power-bi-visualization-smart-narrative)
+[Visual de P e R](https://learn.microsoft.com/pt-br/power-bi/natural-language/power-bi-tutorial-q-and-a)
