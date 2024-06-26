@@ -184,3 +184,16 @@ Aproveite as aulas e marca a gente (@leticiasmirelli e @karinedolago) lá nos st
 >> Elementos (cores, ícones) devem ser usados estrategicamente para dirigir a atenção do público.
 >> Um bom design interfere diretamente na atenção e nível de qualidade percebido no seu projeto.
 >> Menos é mais (retire tudo aquilo que ocupa espaço e não agrega valor).
+
+## 📣 ATENÇÃO, Data Drivens!
+
+Se o gráfico de mapa não estiver funcionando pra você (caso apareça alguma mensagem de erro no Power BI), por favor, LEIA atentamente os pontos abaixo:
+
+1) Dentro do Power BI Desktop (baixado no seu computador), vá em Arquivo > Opções e Configurações > Opções > Segurança (fica dentro de "Global) > Confirme se as opções "ArcGIS for Power BI" e "Mapa e visuais de Mapa Preenchido" estão selecionadas. Se não estiver, selecione as duas opções, clique em OK, feche o seu Power BI Desktop e abra novamente.
+
+2) Existe também uma configuração no Power BI Serviço (que foi explicada durante o vídeo). 
+
+Você precisa clicar na engrenagem que fica no canto superior direito da tela (próximo a sua foto) > Portal de administração > Configurações de Locatário > Busque pelo termo "Mapa" > Deixe como "Habilitada" as duas opções
+
+obs: em casos de contas empresariais, é possível que apenas o TI da empresa tenha acesso as configurações de locatário dentro do Power BI Serviço. Nestes casos a única forma é entrar em contato com eles para liberarem os visuais de mapa pra você (apenas caso não esteja habilitado).
+
