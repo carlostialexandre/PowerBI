@@ -197,3 +197,20 @@ Você precisa clicar na engrenagem que fica no canto superior direito da tela (p
 
 obs: em casos de contas empresariais, é possível que apenas o TI da empresa tenha acesso as configurações de locatário dentro do Power BI Serviço. Nestes casos a única forma é entrar em contato com eles para liberarem os visuais de mapa pra você (apenas caso não esteja habilitado).
 
+## Instruções para trabalhar com imagens de forma dinâmica [Produtos]
+Conforme explicado na aula, o Power BI não puxa a imagem direto de um arquivo local do seu computador - a não ser que você queira uma imagem estática, basta ir na Guia Inserir > Imagem. 
+
+Para a imagem ficar interativa com o seu relatório e ser filtrada conforme os contextos, ela precisar estar em um link (uma URL) armazenado dentro de uma tabela. E é importante que essa tabela precisa esteja relacionada com o seu modelo de dados.
+
+
+
+Aqui estão algumas possibilidades para esse processo:
+1) URL da Web - Pública: pode ser do site da sua empresa, do Google Imagens, de redes sociais, etc. Mas lembre-se que dessa forma você fica vulnerável de quem é o dono dessa imagem e a hospedou online
+
+2) Link do One Drive: que não exija entrada - teste em uma guia anônima do seu navegador para ver se consegue visualizar a imagem
+
+3) Sites gratuitos que hospedam imagens online e geram links compartilháveis, como: https://pt-br.imgbb.com/  (não sei exatamente qual é o prazo de expiração)
+
+4) Criar uma função personalizada no Editor Avançado do Power Query que converte binário pra texto em Base 64 - teremos uma aula sobre isso no modulo de Linguagem M 🧙
+
+
