@@ -213,4 +213,11 @@ Aqui estão algumas possibilidades para esse processo:
 
 4) Criar uma função personalizada no Editor Avançado do Power Query que converte binário pra texto em Base 64 - teremos uma aula sobre isso no modulo de Linguagem M 🧙
 
+## ✍️ Resumo - Tipo de Dado vs. Categoria de Dado
+🧙 Em resumo: o Tipo de Dado é uma propriedade fundamental de uma coluna que afeta como os dados são tratados em todo o modelo de dados (definido dentro do Power Query Editor), enquanto a Categoria de Dados é uma propriedade mais específica que controla como os dados são apresentados em visualizações (gráficos) individuais (configurada em Ferramentas da Coluna, na Guia Modo de Exibição de Tabela do Power BI).
+
+Configurar a Categoria de Dados é extremamente importante para trabalhar de forma efetiva e sem estresse com gráficos de mapa, URLs (links) e também com imagens no Power BI. Percebo que muitos "erros" e dificuldades em trabalhar com esses tipos de visualização na verdade acontecem pois os usuários se esquecem dessa etapa (que é um detalhe, mas detalhes importam). 
+
+Depois dessa, você, data driven, não vai esquecer! 👊
+
 
