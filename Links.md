@@ -22,3 +22,8 @@
 
  [Mapa Coroplético e Bolhas (Azure)](https://membros.comunidadedatadriven.com/125801-playlist-secreta-para-alunos/3073633-como-criar-um-mapa-coropletico-e-de-bolhas-ao-mesmo-tempo-azure-maps)
  [Visualizando Dados no Mapa](https://membros.comunidadedatadriven.com/125801-playlist-secreta-para-alunos/3094240-visualizando-dados-no-mapa)
+
+ ## Visuais Personalizados - Como incluir e recomendações
+🔗 Confira o conteúdo complementar mencionado nessa aula: https://www.instagram.com/p/CazluEWOxbk/
+
+🔗 Link da Microsoft AppSource para fazer download de visuais personalizados: https://appsource.microsoft.com/pt-BR/marketplace/apps?page=1&product=power-bi-visuals
