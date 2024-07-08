@@ -221,3 +221,57 @@ Configurar a Categoria de Dados é extremamente importante para trabalhar de for
 Depois dessa, você, data driven, não vai esquecer! 👊
 
 
+## Relação entre mais de uma variável (dispersão/scatter chart) [Produtos]
+Para ir além nesse tipo de visual de dispersão ou bolhas, confira essa página da documentação oficial da Microsoft: https://learn.microsoft.com/pt-br/power-bi/visuals/power-bi-visualization-scatter?tabs=powerbi-desktop
+
+
+
+Algumas possibilidades para estimular o seu pensamento analítico: 
+
+Vendas:
+
+Analisar a relação entre descontos oferecidos e unidades vendidas para encontrar o ponto ótimo de desconto.
+Correlacionar o tempo gasto em treinamento de vendas com o desempenho de vendas dos representantes.
+Marketing:
+
+Comparar a frequência de postagens em mídias sociais com o engajamento dos usuários para determinar a frequência ideal de postagem.
+Plotar o custo de diferentes projetos em relação ao retorno sobre investimento para priorizar investimentos futuros.
+Recursos Humanos:
+
+Relacionar o número de horas de treinamento com a taxa de retenção de funcionários.
+Mapear o salário contra a satisfação no trabalho para determinar se salários mais altos levam a maior satisfação.
+Operações:
+
+Correlacionar o número de horas extras trabalhadas com a saída de produção para avaliar a eficácia das horas extras.
+Analisar a relação entre a idade do equipamento e a frequência de falhas para planejar a substituição de equipamentos.
+Atendimento ao Cliente:
+
+Comparar o tempo de resolução de chamados de suporte técnico com a satisfação do cliente para melhorar processos de suporte.
+Gestão de Estoque:
+
+Analisar a relação entre o tempo de permanência do estoque e o desconto necessário para movimentar o estoque parado.
+Correlacionar a precisão do inventário com a satisfação do cliente para ver como os erros de estoque afetam as vendas.
+TI:
+
+Relacionar o investimento em segurança da informação com o número de incidentes de segurança para justificar orçamentos de TI.
+
+## Tooltips (dicas de ferramenta) e Filtro TOP N [Produtos]
+Passo a passo resumido de como configurar uma dica de ferramenta: 
+1) Crie uma página em branco no Power BI. Na Guia Formato > Configurações de Tela, defina o tipo de página como 'Dica de Ferramenta' 
+
+2) Construa o(s) visual(is) e elementos que deseja utilizar como Tooltip dentro dessa página. 
+
+3) Ajuste o tamanho da página para garantir que o conteúdo caiba adequadamente quando exibida como uma dica de ferramenta. Isso pode ser feito na mesma seção de Configurações de Página (existe a opção "Personalizado" se o tamanho padrão de Dica de Ferramenta não te atender)
+
+4) Agora vá para a outra página do relatório que tem o gráfico em que você deseja adicionar a dica de ferramenta e selecione-o.
+
+5) No painel de formatação, vá até Propriedades e ative a opção Dica de Ferramenta
+
+6) No menu suspenso 'Página', selecione a página de tooltip que você criou. Se necessário, personalize as opções de dica de ferramenta, como a formatação e os campos a serem exibidos.
+
+8) Salve o relatório e teste a dica de ferramenta passando o mouse sobre a visualização para garantir que tudo está funcionando como esperado. Feito! 🧙‍♀️🪄📊
+
+
+
+🌟 Dica para os Data Drivens 🌟: 
+Quando prestei a certificação da Microsoft (PL-300) caiu uma pergunta justamente sobre a ordem de configuração de um Tooltip no Power BI. Essa é uma aula relevante - se ficou com dúvida, reassista quantas vezes for necessário para fixar e o mais importante: PRATIQUE! 
