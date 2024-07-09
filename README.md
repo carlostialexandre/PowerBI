@@ -273,5 +273,17 @@ Passo a passo resumido de como configurar uma dica de ferramenta:
 
 
 
-🌟 Dica para os Data Drivens 🌟: 
+## 🌟 Dica para os Data Drivens 🌟: 
 Quando prestei a certificação da Microsoft (PL-300) caiu uma pergunta justamente sobre a ordem de configuração de um Tooltip no Power BI. Essa é uma aula relevante - se ficou com dúvida, reassista quantas vezes for necessário para fixar e o mais importante: PRATIQUE! 
+
+### Detalhamento através de Drill-Through [Produtos]
+Passo a passo resumido de como configurar uma página de detalhamento e utilizá-la como Drill-through:
+1) Crie uma nova página em branco e desenvolva através de uma tabela ou matriz quais campos são interessantes trazer de forma detalhada para o seu relatório
+
+2) Sem nenhum visual selecionado, vá até o Painel de Formatação (pincel), acesse Informações da página e na lista suspensa mude o Tipo de Página para a opção Detalhamento
+
+3) Na área 'Drill through a partir de' arraste o(s) campo(s) que você deseja habilitar para o drill-through (pode ser mais de um)
+
+Dessa forma, você define uma página de destino para o drill-through e especifica os campos pelos quais os usuários podem fazer o drill-through para essa página.
+
+Obs: o botão de voltar (setinha) é inserido automaticamente pelo Power BI e você pode configurar a cor, tamanho e outros elementos para deixá-lo mais adequado ao layout do seu relatório.
