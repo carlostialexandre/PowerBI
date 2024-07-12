@@ -27,3 +27,4 @@
 🔗 Confira o conteúdo complementar mencionado nessa aula: https://www.instagram.com/p/CazluEWOxbk/
 
 🔗 Link da Microsoft AppSource para fazer download de visuais personalizados: https://appsource.microsoft.com/pt-BR/marketplace/apps?page=1&product=power-bi-visuals
+🔗 Link da documentação oficial da Microsoft sobre este tipo de parâmetro de intervalo numérico:https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-what-if
