@@ -287,3 +287,11 @@ Passo a passo resumido de como configurar uma página de detalhamento e utilizá
 Dessa forma, você define uma página de destino para o drill-through e especifica os campos pelos quais os usuários podem fazer o drill-through para essa página.
 
 Obs: o botão de voltar (setinha) é inserido automaticamente pelo Power BI e você pode configurar a cor, tamanho e outros elementos para deixá-lo mais adequado ao layout do seu relatório.
+## 💻 Opções de compartilhamento:
+
+Publicando o relatório na web (100% público – cuidado ⚠️)
+Compartilhamento individual de relatório ou dashboard (através do endereço de e-mail ou grupo de e-mail)
+Incluir usuário em um Workspace (conta Pro - com os papéis bem definidos)
+Publicando um aplicativo (para toda a organização, ideal para grandes audiências)
+Embedando para a organização (licença Premium EM)
+Embedando para os seus clientes (licença Premium Embedded A – Azure Portal)
